@@ -21,6 +21,12 @@ pip install -r requirements.txt
 ```bash
 python src/simulate.py --dataset [dataset] --attack [attack] --agg [aggregator]
 ```
+
+In the directory, run the following to simulate randeigen on HIDRA
+```bash
+python3 src/simulate.py
+```
+
 Each run will store its evaluation result in `./results` directory. 
 This is the full list of arguments for the aforementioned command. 
 | Argument | Values | Use |
